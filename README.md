@@ -1,26 +1,26 @@
 # Laravel Routes
 
 - Introduction
-    - [Overview](docs/en/1.0.0/overview)
-    - [License](docs/en/1.0.0/license)
+    - [Overview](docs/en/1.0.0/overview.md)
+    - [License](docs/en/1.0.0/license.md)
 - Getting Started
-    - [Installation](docs/en/1.0.0/installation)
+    - [Installation](docs/en/1.0.0/installation.md)
 - Routing
-    - [Basic](docs/en/1.0.0/usage/basic)
-    - [Resource](docs/en/1.0.0/usage/resource)
-    - [Mapping](docs/en/1.0.0/usage/map)
-    - [Names](docs/en/1.0.0/usage/names)
-    - [Controller](docs/en/1.0.0/usage/controller)
-    - [Middleware](docs/en/1.0.0/usage/middleware)
+    - [Basic](docs/en/1.0.0/usage/basic.md)
+    - [Resource](docs/en/1.0.0/usage/resource.md)
+    - [Mapping](docs/en/1.0.0/usage/map.md)
+    - [Names](docs/en/1.0.0/usage/names.md)
+    - [Controller](docs/en/1.0.0/usage/controller.md)
+    - [Middleware](docs/en/1.0.0/usage/middleware.md)
 - Facade
-    - [Alias](docs/en/1.0.0/usage/facade)
+    - [Alias](docs/en/1.0.0/usage/facade.md)
 - Advanced
-    - [Filter Routes](docs/en/1.0.0/advance/actions)
-    - [Callbacks](docs/en/1.0.0/advance/callback)
+    - [Filter Routes](docs/en/1.0.0/advance/actions.md)
+    - [Callbacks](docs/en/1.0.0/advance/callback.md)
 - Options
-    - [Command Options](docs/en/1.0.0/options)
+    - [Command Options](docs/en/1.0.0/options.md)
 - Other
-    - [Support](docs/en/1.0.0/utilities/support)
+    - [Support](docs/en/1.0.0/utilities/support.md)
 
 # Overview
 
@@ -103,7 +103,7 @@ php artisan make:route <name> [--] [options]
 ## The Default Route Files
 All Laravel routes are defined in your route files, which are located in the routes directory. These files are automatically loaded by your application's `App\Providers\RouteServiceProvider`. The `routes/web.php` file defines routes that are for your web interface. Learn more about [The Default Route Files](https://laravel.com/docs/8.x/routing#the-default-route-files)
 
-This package are using [Facde](/docs/#/en/1.0.0/usage/facade). using facade we can load our routes on the `routes/web.php`:
+This package are using [Facde](/docs/#/en/1.0.0/usage/facade.md). using facade we can load our routes on the `routes/web.php`:
 
 <a name="load-all-routes"></a>
 ## Load All Routes
