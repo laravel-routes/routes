@@ -1,0 +1,63 @@
+<?php 
+
+namespace DummyNamespace;
+
+use PhHitachi\Routes\Services\Routes;
+
+Class DummyClass extends Routes
+{
+	/**
+	* alies of 'as' in group methods
+	*
+	* @var string
+	*/
+	public $name = 'DummyName';
+
+	/**
+	* add prefix to the group
+	*
+	* @var string
+	*/
+	public $prefix = '';
+
+	/**
+	* add prefix to the group
+	*
+	* @var string
+	*/
+	public $resource = true;
+
+	/**
+	* Create a new route instance.
+	*
+	* @return void
+	*/
+	public function __construct()
+	{
+
+	}
+
+	/**
+	* Define url in the action of routes
+	*
+	* @return array
+	*/
+	public function map()
+	{
+		return [
+			
+		];
+	}
+
+	/**
+	* Define methods in the action of routes
+	*
+	* @return array
+	*/
+	public function methods()
+	{
+		return [
+			
+		];
+	}
+}

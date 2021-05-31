@@ -1,0 +1,37 @@
+{
+    "name": "laravel-routes/routes",
+    "description": "Laravel Routes generator",
+    "keywords": ["artisan", "laravel", "routes", "command", "routes-generator", "generator", "routes"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin lee",
+            "email": "ph.hitachi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.34",
+        "laravel/framework": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/finder": "~2.8|~3.0|~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "PhHitachi\\Routes\\": "src/"
+        },
+        "files": [
+            "src/Helper/helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhHitachi\\Routes\\ArtisanRoutesServiceProvider"
+            ],
+            "aliases": {
+                "Routes": "PhHitachi\\Routes\\Facades\\Router"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

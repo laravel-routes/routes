@@ -1,0 +1,13 @@
+<?php 
+
+namespace DummyNamespace;
+
+use Illuminate\Support\Facades\Facade;
+
+Class DummyClass extends Facade
+{
+	protected static function getFacadeAccessor()
+    {
+        return 'DummyName';
+    }
+}

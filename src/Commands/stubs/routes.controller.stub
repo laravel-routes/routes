@@ -1,0 +1,53 @@
+<?php 
+
+namespace DummyNamespace;
+
+use PhHitachi\Routes\Services\Routes;
+use ControllerFullNameSpace;
+
+Class DummyClass extends Routes
+{
+	/**
+	* Create a new route instance.
+	*
+	* @return void
+	*/
+	public function __construct()
+	{
+
+	}
+
+	/**
+	* Define url in the value of action
+	*
+	* @return array
+	*/
+	public function map()
+	{
+		return [
+			
+		];
+	}
+
+	/**
+	* Define methods in the value action
+	*
+	* @return array
+	*/
+	public function methods()
+	{
+		return [
+			
+		];
+	}
+
+	/**
+	* Define the controller for all actions in this class
+	* 
+	* @return string
+	*/
+	public function defaultController()
+	{
+		return DummyController::class;
+	}
+}
