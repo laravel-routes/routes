@@ -7,7 +7,7 @@
 <a name="create-facade"></a>
 ## Create Facade
 
-To create a facade for the route class we have [Command Options](/en/1.0.0/options) to generate and add the route class on `aliases`. Learn more about [Facade](https://laravel.com/docs/8.x/facades#introduction) on the [Laravel Documentation](https://laravel.com/docs/8.x/).
+To create a facade for the route class we have [Command Options](docs/en/1.0.0/options) to generate and add the route class on `aliases`. Learn more about [Facade](https://laravel.com/docs/8.x/facades#introduction) on the [Laravel Documentation](https://laravel.com/docs/8.x/).
 
 To generate run this command:
 ```bash

@@ -11,7 +11,7 @@
 
 To add the single controller on the route class you can put inside the `defaultController()` 
 
-using command we can add directly on the route class automatically upon generating using [command options](/docs/#/en/1.0.0/options)
+using command we can add directly on the route class automatically upon generating using [command options](docs/en/1.0.0/options.md)
 
 ```php
 	/**
@@ -68,7 +68,7 @@ To keep the `resource` mode you can add the controller in the `mapping()` and de
 <a name="create-auth-route"></a>
 ## Create Auth Routes
 
-To create a routes we have options to register the facade in our `config/app.php` in `aliases`, using `--facade` we generate a facade in the `App/Routes/Facade` directory, and using `--aliases=*` we automatically register the facade on `config/app.php` with aliases. Learn more about [Facade](/docs/#/en/1.0.0/usage/facade).
+To create a routes we have options to register the facade in our `config/app.php` in `aliases`, using `--facade` we generate a facade in the `App/Routes/Facade` directory, and using `--aliases=*` we automatically register the facade on `config/app.php` with aliases. Learn more about [Facade](docs/en/1.0.0/usage/facade.md).
 
 
 ```php
@@ -203,7 +203,7 @@ Class Auth extends Routes
 }
 ```
 
-after creating route class we can now call it on the `/routes/web.php` using alias, For example: `AuthRoute::routes()`. Learn more about [Facde](/docs/#/en/1.0.0/usage/facade)
+after creating route class we can now call it on the `/routes/web.php` using alias, For example: `AuthRoute::routes()`. Learn more about [Facde](docs/en/1.0.0/usage/facade.md)
 
 ```php
 //routes/web.php

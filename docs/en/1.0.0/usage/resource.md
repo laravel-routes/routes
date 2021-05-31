@@ -46,7 +46,7 @@ All `URI` in the route class will be added a prefix of `admin`
 <a name="route-name-prefixes"></a>
 ## Route Name Prefixes
 
-The `name` method may be used to prefix each route name in the group with a given string. For example, you may want to prefix all of the class route's names with `admin`.  Learn more about [Naming](#/docs/#/en/1.0.0/usage/names)
+The `name` method may be used to prefix each route name in the group with a given string. For example, you may want to prefix all of the class route's names with `admin`.  Learn more about [Naming](docs/en/1.0.0/usage/names.md)
 
 ```php
 namespace App\Routes;
