@@ -1,8 +1,8 @@
 {
     "name": "laravel-routes/routes",
-    "description": "Laravel Routes generator",
+    "description": "This Laravel package creates Routes and generating a route classes based and make your routes clean and easy to navigate to all controller class.",
     "keywords": ["artisan", "laravel", "routes", "command", "routes-generator", "generator", "routes"],
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -33,5 +33,11 @@
             }
         }
     },
-    "minimum-stability": "dev"
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
