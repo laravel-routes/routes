@@ -36,7 +36,6 @@ This Laravel package creates [Routes](https://laravel.com/docs/8.x/routing) and 
 
 this package also can add [middleware](https://laravel.com/docs/8.x/middleware) in all actions even in a `resource mode`. also we can easily <b>disable/enable</b> routes by action without removing in the route classes using [Filtering routes](/docs/#/en/1.0.0/advance/actions) by `except` & `only`
 
-<<<<<<< HEAD
 <strong>Note:</strong> This package are `not` using `resource` from `Illuminate\Routing\Route`, This packge are using route  `mapping` from the route `classes`; however, This package providing you a `resource` mode with a same feature of the original [resource](https://laravel.com/docs/5.8/controllers#resource-controllers) methods by providing a default route inside the package to merge it in the route classes.
 
 <strong>Note:</strong> This package are `not` using `resource` from `Illuminate\Routing\Route`, This packge are using route  `mapping` from the route `classes`; however, This package providing you a `resource` mode with a same feature of the original [resource](https://laravel.com/docs/5.8/controllers#resource-controllers) methods by providing a default route inside the package to merge it in the route classes. 
@@ -103,7 +102,7 @@ php artisan make:route <name> [--] [options]
 ## The Default Route Files
 All Laravel routes are defined in your route files, which are located in the routes directory. These files are automatically loaded by your application's `App\Providers\RouteServiceProvider`. The `routes/web.php` file defines routes that are for your web interface. Learn more about [The Default Route Files](https://laravel.com/docs/8.x/routing#the-default-route-files)
 
-This package are using [Facde](/docs/#/en/1.0.0/usage/facade.md). using facade we can load our routes on the `routes/web.php`:
+This package are using [Facde](docs/#/en/1.0.0/usage/facade.md). using facade we can load our routes on the `routes/web.php`:
 
 <a name="load-all-routes"></a>
 ## Load All Routes
@@ -128,7 +127,7 @@ Routes::load([
 <a name="load-using-alias"></a>
 ## Load Route via Class Name
 
-using `facade::routes()` we can load the class as routes. Learn more about [Alias](/docs/#/en/1.0.0/usage/facade)
+using `facade::routes()` we can load the class as routes. Learn more about [Alias](docs/en/1.0.0/usage/facade)
 
 ```php
 //routes/web.php
