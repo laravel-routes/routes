@@ -49,21 +49,19 @@
 
 # Overview
 
----
-
 - [Introduction](#introduction)
 - [Features](#features)
 
 <a name="introduction"></a>
 ## Introduction
 
-This Laravel package creates [Routes](https://laravel.com/docs/8.x/routing) and generating a route `classes based` and make your routes clean and easy to `navigate` to all route/controller classes.
+This Laravel package creates [Routes](https://laravel.com/docs/8.x/routing) `classes based` and make your routes clean and easy to `navigate` to all route/controller classes.
 
 this package also can add [middleware](https://laravel.com/docs/8.x/middleware) in all actions even in a `resource` mode. also we can easily <b>disable/enable</b> routes by `action` without `removing` in the route classes using [Filtering routes][actions] by `except` & `only`
 
 <strong>Note:</strong> This package are `not` using `resource` from `Illuminate\Routing\Route`, This packge are using route  `mapping` from the route `classes`; however, This package providing you a `resource` mode with a same feature of the original [resource](https://laravel.com/docs/5.8/controllers#resource-controllers) methods by providing a default route inside the package to merge it in the route classes.
 
-By default `all` route `classes` is working as `grouped`, sometimes we need to run a route individuality with diffirent prefixes and names prefixes and URI's but some point we want to [handle][handle] our route on other routes with a same places, this package provided a `handle` methods to handle your route in `one` class. 
+By default `all` route classes that use `mapping` is working as `grouped`, sometimes we need to run a routes with diffirent prefixes and names prefixes and URI's but some point we want to handle our route on other routes with a same places, this package provided a `handle` methods to handle your route in `one` class. 
 
 <a name="requirements"></a>
 ## Requirements
@@ -71,11 +69,14 @@ By default `all` route `classes` is working as `grouped`, sometimes we need to r
 - <strong>PHP >=7.2.34</strong>
 - <strong>Laravel >=5.8.*</strong>
 
+
 <a name="installation"></a>
 ## Installation
 
-For the instalation you can visit [documentation][installation].
+For the installation you can visit [documentation][documentation].
 
+Become a contributor?
+Contact: ph.hitachi@gmail.com
 
 [documentation]: https://laravel-routes.herokuapp.com/
 [overview]: https://laravel-routes.herokuapp.com/#/en/1.0.0/overview
