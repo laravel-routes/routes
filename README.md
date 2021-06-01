@@ -17,7 +17,7 @@
         </a>
         <!---->
         <a href="https://packagist.org/packages/laravel-routes/routes">
-            <img src="https://img.shields.io/packagist/l/laravel-routes/routes" alt="License">
+            <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License">
         </a>
     </p>
 </div>
@@ -47,11 +47,6 @@
 - Other
     - [Support][support]
 
-# Overview
-
-- [Introduction](#introduction)
-- [Features](#features)
-
 <a name="introduction"></a>
 ## Introduction
 
@@ -75,8 +70,8 @@ By default `all` route classes that use `mapping` is working as `grouped`, somet
 
 For the installation you can visit [documentation][documentation].
 
-Become a contributor?
-Contact: ph.hitachi@gmail.com
+## Become a contributor
+<strong>Contact</strong>: ph.hitachi@gmail.com
 
 [documentation]: https://laravel-routes.herokuapp.com/
 [overview]: https://laravel-routes.herokuapp.com/#/en/1.0.0/overview
