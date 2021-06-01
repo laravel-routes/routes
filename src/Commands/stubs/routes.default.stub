@@ -2,41 +2,18 @@
 
 namespace DummyNamespace;
 
+use Illuminate\Routing\Route;
 use PhHitachi\Routes\Services\Routes;
 
 Class DummyClass extends Routes
 {
 	/**
-	* Create a new route instance.
+	* Create a new route.
 	*
 	* @return void
 	*/
-	public function __construct()
+	public function handle(Route $route)
 	{
-
-	}
-	
-	/**
-	* Define url in the value of action
-	*
-	* @return array
-	*/
-	public function map()
-	{
-		return [
-			
-		];
-	}
-
-	/**
-	* Define methods in the value action
-	*
-	* @return array
-	*/
-	public function methods()
-	{
-		return [
-			
-		];
+		//create route 
 	}
 }
