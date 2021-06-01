@@ -91,13 +91,18 @@ Class Router extends ClassMapGenerator
 	*
 	* @param  mixed $instance 
 	* @return Illuminate\Routing\Route
+	* @throws \Exception
 	*/
 	public function handle($instance)
 	{
-		if ($instance->group) {
+		if ($instance->group && method_exists($instance, 'toGroup')) {
 			return $instance->toGroup(routes());
 		}
 
-		return $instance->routes();
+		if(method_exists($instance, 'routes')){
+			return $instance->routes();
+		}
+
+		throw new \Exception("{$instance} is not Route class");
 	}
 }
